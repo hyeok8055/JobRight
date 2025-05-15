@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f3f0; /* 테마의 background 색상과 일치 */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* 스크롤바 기본 스타일 (전체 적용) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bca89f; /* theme.colors.brand.lightBrown */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a08679; /* theme.colors.brand.mediumBrown */
+}
+
+/* 모바일 환경에서 콘텐츠가 하단 네비게이션에 가려지지 않도록 body에 padding-bottom 추가 */
+body #root > div {
+    /* App.jsx의 Box pb="70px"와 BottomNavBar 높이를 고려 */
+} 
