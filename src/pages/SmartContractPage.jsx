@@ -36,7 +36,7 @@ const SmartContractPage = () => {
         
         <Box p={6} shadow="xl" borderWidth="1px" borderRadius="lg" bg="white">
           <HStack mb={4} spacing={3} alignItems="center">
-            <Image src='/public/temp.png' alt="라이티 AI 비서" boxSize="50px" borderRadius="full" />
+            <Image src='/temp.png' alt="라이티 AI 비서" boxSize="50px" borderRadius="full" />
             <VStack align="start" spacing={0}>
               <Heading size="md" color="brand.darkBrown">AI 비서 "라이티" 분석 결과</Heading>
               <Text fontSize="sm" color="brand.mediumBrown">계약서: {analysisResult.contractName}</Text>
